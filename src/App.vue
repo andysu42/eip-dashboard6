@@ -3,12 +3,12 @@ import { ref } from 'vue'
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { Bars3Icon, BellIcon, XMarkIcon, MapPinIcon, ArrowSmallRightIcon } from '@heroicons/vue/24/outline'
 
-const navigation = [
-  // { name: 'Dashboard', href: '#', current: true },
-  // { name: 'Team', href: '#', current: false },
-  // { name: 'Projects', href: '#', current: false },
-  // { name: 'Calendar', href: '#', current: false },
-]
+// const navigation = [
+// { name: 'Dashboard', href: '#', current: true },
+// { name: 'Team', href: '#', current: false },
+// { name: 'Projects', href: '#', current: false },
+// { name: 'Calendar', href: '#', current: false },
+// ]
 
 const showModal = ref(false)
 
@@ -512,7 +512,7 @@ const toggleModal = () => {
                     <li class="flex xxs:flex-col lg:flex-row flex-wrap items-center gap-2">
                       <div class="avatar">
                         <div class="w-[36px] rounded-full ring ring-offset-base-100 ring-offset-2">
-                          <img src="	https://ui.shadcn.com/avatars/01.png" />
+                          <img src="https://ui.shadcn.com/avatars/01.png" />
                         </div>
                       </div>
                       <div class="badge">前端開發部</div>
@@ -524,7 +524,7 @@ const toggleModal = () => {
                     <li class="flex xxs:flex-col lg:flex-row flex-wrap items-center gap-2">
                       <div class="avatar">
                         <div class="w-[36px] rounded-full ring ring-offset-base-100 ring-offset-2">
-                          <img src="	https://ui.shadcn.com/avatars/01.png" />
+                          <img src="https://ui.shadcn.com/avatars/01.png" />
                         </div>
                       </div>
                       <div class="badge">前端開發部</div>
@@ -536,7 +536,7 @@ const toggleModal = () => {
                     <li class="flex xxs:flex-col lg:flex-row flex-wrap items-center gap-2">
                       <div class="avatar">
                         <div class="w-[36px] rounded-full ring ring-offset-base-100 ring-offset-2">
-                          <img src="	https://ui.shadcn.com/avatars/01.png" />
+                          <img src="https://ui.shadcn.com/avatars/01.png" />
                         </div>
                       </div>
                       <div class="badge">前端開發部</div>
@@ -548,7 +548,7 @@ const toggleModal = () => {
                     <li class="flex xxs:flex-col lg:flex-row flex-wrap items-center gap-2">
                       <div class="avatar">
                         <div class="w-[36px] rounded-full ring ring-offset-base-100 ring-offset-2">
-                          <img src="	https://ui.shadcn.com/avatars/01.png" />
+                          <img src="https://ui.shadcn.com/avatars/01.png" />
                         </div>
                       </div>
                       <div class="badge">前端開發部</div>
